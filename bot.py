@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-TOKEN = "7714727163:AAHTPb-FdfJ01CN7Gigcvp0ZTKhF1UceQdI"
+TOKEN = "7714727163:AAFvdDRji5t9bQ2c-w09ySv4hmTxi_PjK58"
 
 async def anti_link(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message and update.message.text:
